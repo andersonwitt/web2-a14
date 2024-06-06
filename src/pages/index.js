@@ -19,7 +19,6 @@ export default function Home() {
     const currentCards = cards.concat(response.data.cards);
     setCard(response.data.cards[0]);
     setCards(currentCards);
-    console.log(response.data.cards[0]);
   }
 
   async function handleNewDeck() {
